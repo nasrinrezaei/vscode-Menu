@@ -1,0 +1,46 @@
+.scroll-with-clock {
+    overflow: auto;
+    background-color: white;
+    height: 3217px;
+    width: 300px;
+}
+
+.scroll-with-clock__clock {
+    width: 8%;
+    padding-top: 8%;
+    position: fixed;
+    top: 10%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    background-image: url(../../../../assets/clock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scroll-with-clock__clock-hands-container {
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    align-items: baseline;
+    height: 50%;
+    align-items: flex-end;
+}
+
+.scroll-with-clock__clock-hands-container-minute-hand {
+    width: 0.3vh;
+    background-color: black;
+    height: 60%;
+    transform-origin: bottom;
+}
+
+.scroll-with-clock__clock-hands-container-hour-hand {
+    width: 0.3vh;
+    background-color: black;
+    height: 50%;
+    transform-origin: bottom;
+    position: absolute;
+    bottom: 0px;
+}
