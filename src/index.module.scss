@@ -1,0 +1,41 @@
+.main-page {
+    display: flex;
+}
+
+.main-page__menu {
+    flex: 0 0 30%;
+    max-width: 30%;
+    border-right: 1px solid black;
+}
+
+.main-page__page {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.main-page__menu-options {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+
+.main-page__menu-item-parent {
+    padding-left: 10px;
+}
+
+.main-page__menu-item {
+    padding-left: 10px;
+}
+
+.main-page__menu-item-name {
+    display: flex;
+    gap: 4px;
+}
+
+.main-page__menu-item-name--collapse {
+    display: none;
+}
+
+.main-page__menu-item-name--expand {
+    display: block;
+}
